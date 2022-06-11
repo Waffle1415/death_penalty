@@ -1,6 +1,6 @@
 #プレイヤーを復活
 execute as @s at @s run setblock ~ ~-1 ~ air replace
-execute as @s at @s run setblock ~ ~-1 ~ dropper[facing=up] replace
+execute as @s at @s run setblock ~ ~-1 ~ dropper[facing=up]{CustomName:'"祭壇"'} replace
 tp @a[tag=spectate] ~ ~ ~
 gamemode survival @a[tag=spectate]
 tag @a[tag=spectate] remove spectate
