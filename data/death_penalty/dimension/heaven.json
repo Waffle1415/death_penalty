@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:overworld",
+    "type": "death_penalty:heaven",
     "generator": {
       "type": "minecraft:flat",
       "settings": {
@@ -8,15 +8,31 @@
         "features": false,
         "layers": [
           {
-            "block": "minecraft:stone",
-            "height": 100
-          },
-          {
             "block": "minecraft:bedrock",
             "height": 1
+          },
+          {
+            "block": "minecraft:stone",
+            "height": 63
           }
         ],
-        "structure_overrides": []
+        "structure_overrides": [
+          {
+            "structures": [
+              {
+                "structure": "#minecraft:shipwreck",
+                "weight": 1
+              }
+            ],
+            "placement": {
+              "type": "minecraft:random_spread",
+              "salt": 1597773885,
+              "spacing": 10,
+              "separation": 5
+            }
+          }
+        ]
       }
     }
   }
+  
