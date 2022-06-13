@@ -3,6 +3,22 @@
     "generator": {
         "seed": 0,
         "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:stone",
+                    "height": 100
+                },
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 1
+                }
+            ],
+            "biome": "plains",
+            "lakes": false,
+            "features": false,
+            "structure_overrides": []
+        },
         "biome_source": {
             "seed": 0,
             "type": "minecraft:fixed",
