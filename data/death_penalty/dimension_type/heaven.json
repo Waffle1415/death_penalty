@@ -1,0 +1,14 @@
+{
+    "has_raids": false,
+    "logical_height": 256,
+    "infiniburn": "#infiniburn_overworld",
+    "ambient_light": 5,
+    "piglin_safe": false,
+    "bed_works": false,
+    "respawn_anchor_works": false,
+    "ultrawarm": false,
+    "natural": false,
+    "shrunk": false,
+    "has_skylight": true,
+    "has_ceiling": false
+}

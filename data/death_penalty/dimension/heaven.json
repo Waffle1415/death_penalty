@@ -1,0 +1,12 @@
+{
+    "type": "death_penalty:heaven",
+    "generator": {
+        "seed": 0,
+        "type": "minecraft:flat",
+        "biome_source": {
+            "seed": 0,
+            "type": "minecraft:fixed",
+            "biome": "minecraft:plains"
+        }
+    }
+}
