@@ -1,5 +1,5 @@
 #死亡を検知後別ディメンションに飛ばす
-summon armor_stand ~ ~ ~ {Invisible:true,}
+summon armor_stand ~ ~ ~ {Invisible:true,Marker:1b,Tags:["spawn"]}
 execute in death_penalty:heaven run tp @s ~ 64 ~
 tag @s add death
 scoreboard players add #counter deathcount 1
