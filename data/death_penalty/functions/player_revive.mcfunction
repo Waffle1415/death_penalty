@@ -1,8 +1,7 @@
 #プレイヤーを復活
-execute as @s at @s run setblock ~ ~-1 ~ air replace
-execute as @s at @s run setblock ~ ~-1 ~ dropper[facing=up]{CustomName:'"祭壇"'} replace
-tp @a[tag=spectate] ~ ~ ~
-gamemode survival @a[tag=spectate]
-tag @a[tag=spectate] remove spectate
+tag @s remove death
+execute at @a[tag=!death,sort=random,limit=1] in overworld run tp @s ~ ~ ~
+clear @s iron_pickaxe{display:{Name:'{"text":"作業用ツルハシ","color":"dark_purple","italic":false}',Lore:['{"text":"これで石をたくさん掘れば","color":"white","italic":false}','{"text":"元の世界に帰れるはず...","color":"white","italic":false}']},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:10s}]}
+effect clear @s resistance
+scoreboard players reset @s mine
 playsound minecraft:ui.toast.challenge_complete master @a
-tellraw @a "死んでいたプレイヤー達が復活した！"
