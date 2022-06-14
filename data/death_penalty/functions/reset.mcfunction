@@ -23,4 +23,4 @@ scoreboard players set #counter mine 576
 
 #乱数関連
 scoreboard objectives add rng dummy
-scoreboard players set #100 rng 100
+scoreboard players set #1000 rng 1000

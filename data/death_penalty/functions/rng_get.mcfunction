@@ -8,6 +8,6 @@ execute store result score @s rng run data get entity @e[tag=RNG,distance=..0.01
 kill @e[tag=RNG,distance=..0.01,limit=1]
 
 # 取得したUUIDを100で割った時の余りを取得
-scoreboard players operation @s rng %= #100 rng
+scoreboard players operation @s rng %= #1000 rng
 # パターンの数($Max)で剰余計算とかもできるぞ。
 # scoreboard players operation @s rng %= $Max rng
