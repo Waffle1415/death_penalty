@@ -4,10 +4,11 @@ execute as @a[scores={death=1..},tag=!death] at @s run function death_penalty:pl
 #天国
 execute as @a[tag=death,scores={mine=576..}] at @s run function death_penalty:player_revive
 
-effect give @a[tag=death] resistance 600 4 false
+effect give @a[tag=death] resistance 60000 4 true
+effect give @a[tag=death] saturation 60000 0 true
 
 #ウォーデンを倒したらプレイヤー復活
-execute as @a[scores={wardenkill=1..}] at @s run function death_penalty:player_super_revive
+#execute as @a[scores={wardenkill=1..}] at @s run function death_penalty:player_super_revive
 
 #カスタムクラフト
 #execute as @e[type=item_frame,nbt={Item:{id:"minecraft:diamond_block",Count:1b}},tag=!set] at @s if block ~ ~-1 ~ minecraft:dropper at @s run function death_penalty:set_custom_craft
