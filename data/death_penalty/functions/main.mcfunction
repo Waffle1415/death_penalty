@@ -1,13 +1,9 @@
 #死亡検知
-execute as @a[scores={death=1..},tag=!death] at @s run function death_penalty:player_death
+    execute as @a[scores={death=1..},tag=!death] at @s run function death_penalty:player_death
 
 #天国
-execute as @a[tag=death,scores={mine=576..}] at @s run function death_penalty:player_revive
-
-#死なない、お腹も空かない
-effect give @a[tag=death] resistance 60000 4 true
-effect give @a[tag=death] saturation 60000 0 true
-
+    execute if entity @a[tag=death] run function death_penalty:heaven
+    
 #ウォーデンを倒したらプレイヤー復活
 #execute as @a[scores={wardenkill=1..}] at @s run function death_penalty:player_super_revive
 
