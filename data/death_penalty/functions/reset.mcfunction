@@ -19,7 +19,7 @@ scoreboard objectives add sneak custom:sneak_time
 
 #採掘数管理
 scoreboard objectives add mine minecraft.mined:stone
-scoreboard players set #counter mine 576
+#scoreboard players set #counter mine 576
 
 #乱数関連
 scoreboard objectives add rng dummy
