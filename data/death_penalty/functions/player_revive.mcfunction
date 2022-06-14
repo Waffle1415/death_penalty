@@ -4,6 +4,7 @@ clear @s iron_pickaxe{display:{Name:'{"text":"作業用ツルハシ","color":"da
 effect clear @s resistance
 effect clear @s saturation
 effect give @s slow_falling 40 0 true
+scoreboard players reset @s stone
 scoreboard players reset @s mine
 tag @s remove death
 gamemode survival @s
