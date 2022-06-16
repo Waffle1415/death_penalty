@@ -5,6 +5,7 @@ difficulty hard
 
 #死亡検知
 scoreboard objectives add death deathCount
+scoreboard objectives add death_count dummy
 
 #採掘検知
 scoreboard objectives add mine minecraft.mined:stone
