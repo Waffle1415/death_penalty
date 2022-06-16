@@ -9,5 +9,7 @@ kill @e[tag=RNG,distance=..0.01,limit=1]
 
 # 取得したUUIDを100で割った時の余りを取得
 scoreboard players operation @s rng %= #1000 rng
+scoreboard players operation @s rng2 %= #8192 rng2
+
 # パターンの数($Max)で剰余計算とかもできるぞ。
 # scoreboard players operation @s rng %= $Max rng
