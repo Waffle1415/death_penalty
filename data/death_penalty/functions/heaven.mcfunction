@@ -1,5 +1,5 @@
 #条件達成で帰還
-execute as @a[tag=death,tag=revive] at @s run function death_penalty:player_revive
+#execute as @a[tag=death,tag=revive] at @s run function death_penalty:player_revive
 
 #石を掘ったときに確率でイベント発生
 execute as @a[tag=death,tag=!chance,scores={mine=1..}] run function death_penalty:mine_event

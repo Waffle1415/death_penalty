@@ -8,7 +8,6 @@ effect give @s slow_falling 40 0 true
 scoreboard players reset @s mine
 scoreboard players reset @s chance
 tag @s remove death
-tag @s remove revive
 tag @s remove chance
 gamemode survival @s
 playsound minecraft:ui.toast.challenge_complete master @s
