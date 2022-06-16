@@ -4,9 +4,11 @@ clear @s iron_pickaxe{display:{Name:'{"text":"作業用ツルハシ","color":"da
 effect clear @s resistance
 effect clear @s saturation
 effect give @s slow_falling 40 0 true
-scoreboard players reset @s stone
 scoreboard players reset @s mine
+scoreboard players reset @s chance
 tag @s remove death
+tag @s remove revive
+tag @s remove chance
 gamemode survival @s
 playsound minecraft:ui.toast.challenge_complete master @s
 tellraw @s "元の世界に帰ってきた！"

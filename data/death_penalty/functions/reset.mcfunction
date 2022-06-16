@@ -19,7 +19,10 @@ scoreboard objectives add sneak custom:sneak_time
 
 #採掘数管理
 scoreboard objectives add mine minecraft.mined:stone
-scoreboard objectives add stone dummy
+#scoreboard objectives add stone dummy
+
+#確変
+scoreboard objectives add chance dummy
 
 #乱数関連
 scoreboard objectives add rng dummy
