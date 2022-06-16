@@ -3,7 +3,6 @@ execute in death_penalty:heaven run tp @s ~ 64 ~
 tag @s add death
 scoreboard players add #counter deathcount 1
 scoreboard players reset @s death
-#scoreboard players reset @s stone
 scoreboard players reset @s mine
 gamemode adventure @s
 

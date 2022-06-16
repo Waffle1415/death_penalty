@@ -15,7 +15,7 @@ scoreboard objectives add deathcount dummy
 scoreboard players set #limit deathcount 3
 
 #スニーク検知
-scoreboard objectives add sneak custom:sneak_time
+#scoreboard objectives add sneak custom:sneak_time
 
 #採掘数管理
 scoreboard objectives add mine minecraft.mined:stone
