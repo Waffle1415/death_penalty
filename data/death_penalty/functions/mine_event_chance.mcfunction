@@ -4,7 +4,7 @@ execute as @s at @s run function death_penalty:rng_get
 execute as @s at @s if score @s rng matches 0..19 run function death_penalty:event/event_3
 execute as @s at @s if score @s rng matches 30..34 run function death_penalty:event/chance_event_1
 #GOD
-execute as @s at @s if score @s rng matches 777 run function death_penalty:god
+execute as @s at @s if score @s rng2 matches 777 run function death_penalty:god
 
 #演出
 title @s times 20 20 20
