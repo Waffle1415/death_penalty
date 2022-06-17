@@ -11,6 +11,7 @@ scoreboard objectives add death_count dummy
 scoreboard objectives add mine minecraft.mined:stone
 
 #確変
+scoreboard objectives add luck dummy
 scoreboard objectives add chance dummy
 
 #乱数関連
