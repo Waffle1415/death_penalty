@@ -4,6 +4,9 @@ tag @s add death
 scoreboard players add @s death_count 1
 scoreboard players reset @s death
 scoreboard players reset @s mine
+scoreboard players reset @s drop_iron
+scoreboard players reset @s drop_stone
+scoreboard players reset @s drop_wooden
 gamemode adventure @s
 
 #メッセージ

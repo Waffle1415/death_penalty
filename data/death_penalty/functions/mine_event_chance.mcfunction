@@ -16,7 +16,7 @@ playsound minecraft:block.amethyst_block.break master @s
 
 #スコア処理
 scoreboard players reset @s mine
-scoreboard players remove @s chance 1
+scoreboard players remove @s[scores={chance=1..}] chance 1
 
 #chanceが0で確変終了
 execute as @s[scores={chance=0}] at @s run function death_penalty:mine_event_chance_end

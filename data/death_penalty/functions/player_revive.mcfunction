@@ -7,6 +7,7 @@ clear @s wooden_pickaxe{display:{Name:'{"text":"作業用ツルハシ","color":"
 effect clear
 effect give @s slow_falling 40 0 true
 scoreboard players reset @s mine
+scoreboard players reset @s luck
 scoreboard players reset @s chance
 tag @s remove death
 tag @s remove chance
