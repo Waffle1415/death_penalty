@@ -1,7 +1,8 @@
 #石を掘ったときに確率でイベント発生
-execute as @a[tag=death,tag=!chance,tag=!luck,scores={mine=1..}] run function death_penalty:mine_event
+execute as @a[tag=death,tag=!chance,tag=!luck,tag=!luck2,scores={mine=1..}] run function death_penalty:mine_event
 #確変中はイベントが変化
 execute as @a[tag=death,tag=luck,scores={mine=1..}] run function death_penalty:mine_event_luck
+execute as @a[tag=death,tag=luck2,scores={mine=1..}] run function death_penalty:mine_event_luck2
 execute as @a[tag=death,tag=chance,scores={mine=1..}] run function death_penalty:mine_event_chance
 
 #ツルハシを捨てても手元に戻す
