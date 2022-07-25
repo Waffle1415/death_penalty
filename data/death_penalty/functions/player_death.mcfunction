@@ -1,7 +1,6 @@
 #死亡を検知後別ディメンションに飛ばす
 execute in death_penalty:heaven run tp @s ~ 64 ~
 tag @s add death
-tag @s remove heaven
 scoreboard players add @s death_count 1
 scoreboard players reset @s death
 scoreboard players reset @s mine

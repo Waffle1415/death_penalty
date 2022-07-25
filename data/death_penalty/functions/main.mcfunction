@@ -1,6 +1,5 @@
 #死亡検知
-execute as @a[scores={death=1..}] at @s run tag @s add heaven
-execute as @a[tag=heaven] at @s run function death_penalty:player_death
+execute as @a[scores={death=1..}] at @s run gamemode spectator @s
 execute as @a[gamemode=spectator] at @s run function death_penalty:player_death
 
 #天国
