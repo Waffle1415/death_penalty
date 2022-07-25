@@ -12,7 +12,8 @@ execute as @s at @s if score @s rng matches 100..299 run function death_penalty:
 execute as @s at @s if score @s rng2 matches 777 run function death_penalty:god
 
 #効果音
-playsound minecraft:block.amethyst_block.break master @s
+stopsound @s block minecraft:block.stone.break
+playsound minecraft:block.amethyst_block.break block @s
 
 #スコア処理
 scoreboard players reset @s mine
