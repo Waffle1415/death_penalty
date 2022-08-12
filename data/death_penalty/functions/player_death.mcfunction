@@ -3,6 +3,7 @@ execute in death_penalty:heaven run tp @s ~ 64 ~
 tag @s add death
 scoreboard players add @s death_count 1
 scoreboard players reset @s death
+scoreboard players reset @s countdown
 scoreboard players reset @s mine
 scoreboard players reset @s drop_iron
 scoreboard players reset @s drop_stone
