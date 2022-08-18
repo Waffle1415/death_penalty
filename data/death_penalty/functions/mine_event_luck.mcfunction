@@ -3,11 +3,11 @@
 title @s times 20 20 20
 title @s title [{"text":"チャンス中！","bold":true,"color":"green"}]
 
-#1%で確変突入
+#0.5%で確変突入
 execute as @s at @s run function death_penalty:rng_get
-execute as @s at @s if score @s rng matches 0..9 run scoreboard players reset @s luck
-execute as @s at @s if score @s rng matches 0..9 run tag @s remove luck
-execute as @s at @s if score @s rng matches 0..9 run function death_penalty:event/chance
+execute as @s at @s if score @s rng matches 0..4 run scoreboard players reset @s luck
+execute as @s at @s if score @s rng matches 0..4 run tag @s remove luck
+execute as @s at @s if score @s rng matches 0..4 run function death_penalty:event/chance
 
 #GOD
 execute as @s at @s if score @s rng2 matches 777 run function death_penalty:god
