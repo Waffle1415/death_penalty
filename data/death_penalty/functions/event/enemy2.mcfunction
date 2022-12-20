@@ -1,7 +1,7 @@
-tellraw @s "なんと！石の中から敵の群れが出てきた！！"
-#execute as @s at @s run function death_penalty:rng_get
-summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"採掘戦隊マインクラフター","color":"red","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
-summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"採掘戦隊マインクラフター","color":"yellow","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
-summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"採掘戦隊マインクラフター","color":"blue","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
-summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"採掘戦隊マインクラフター","color":"green","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
-summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"採掘戦隊マインクラフター","color":"black","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
+#マインクラフターズ召喚
+    tellraw @s "なんと！石の中から敵の群れが出てきた！！"
+    summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"マインクラフターズ","color":"red","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
+    summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"マインクラフターズ","color":"yellow","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
+    summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"マインクラフターズ","color":"blue","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
+    summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"マインクラフターズ","color":"green","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
+    summon zombie ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"death",CustomName:'{"text":"マインクラフターズ","color":"black","italic":false}',HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],IsBaby:1b,Health:4f}
